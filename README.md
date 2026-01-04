@@ -1,4 +1,4 @@
-# 🔓 Backdoor Client - Python
+# Backdoor Client - Python
 
 Um cliente de backdoor em Python que estabelece uma conexão reversa com um servidor, permitindo execução remota de comandos, transferência de arquivos e controle do sistema.
 
@@ -12,7 +12,7 @@ Este software é fornecido **apenas para fins educacionais e de pesquisa em segu
 
 **O uso não autorizado deste software pode violar leis locais e federais.** Os desenvolvedores não se responsabilizam pelo uso indevido deste software.
 
-## 📋 Requisitos
+## Requisitos
 
 - **Python 3.6+**
 - Biblioteca `socket` (incluída na biblioteca padrão do Python)
