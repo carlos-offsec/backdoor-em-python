@@ -18,7 +18,7 @@ Este software é fornecido **apenas para fins educacionais e de pesquisa em segu
 - Biblioteca `socket` (incluída na biblioteca padrão do Python)
 - Biblioteca `subprocess` (incluída na biblioteca padrão do Python)
 
-## 🚀 Instalação
+##  Instalação
 
 1. Clone o repositório:
 ```bash
@@ -33,18 +33,18 @@ cd backdoor-em-python
 chmod +x backdoor.py
 ```
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 ### Funcionalidades Principais
 
-- ✅ **Conexão Reversa**: Estabelece conexão TCP com servidor remoto
-- ✅ **Execução Remota de Comandos**: Executa comandos do sistema operacional
-- ✅ **Navegação de Diretórios**: Navega pelo sistema de arquivos remoto
-- ✅ **Download de Arquivos**: Baixa arquivos do sistema remoto
-- ✅ **Informações do Sistema**: Obtém informações detalhadas do sistema
-- ✅ **Tratamento de Erros Robusto**: Gerencia erros de forma elegante
-- ✅ **Buffer Dinâmico**: Suporta comandos e respostas grandes
-- ✅ **Timeout de Comandos**: Previne travamentos com comandos longos
+- **Conexão Reversa**: Estabelece conexão TCP com servidor remoto
+- **Execução Remota de Comandos**: Executa comandos do sistema operacional
+- **Navegação de Diretórios**: Navega pelo sistema de arquivos remoto
+- **Download de Arquivos**: Baixa arquivos do sistema remoto
+- **Informações do Sistema**: Obtém informações detalhadas do sistema
+- **Tratamento de Erros Robusto**: Gerencia erros de forma elegante
+- **Buffer Dinâmico**: Suporta comandos e respostas grandes
+- **Timeout de Comandos**: Previne travamentos com comandos longos
 
 ### Comandos Disponíveis
 
@@ -57,7 +57,7 @@ chmod +x backdoor.py
 | `<comando>` | Executa qualquer comando do sistema | `ls -la`, `whoami` |
 | `q`, `quit`, `exit` | Encerra a conexão | `quit` |
 
-## 🎯 Uso
+## Uso
 
 ### Uso Básico
 
@@ -103,7 +103,7 @@ backdoor.py
 └── main()                     # Função principal
 ```
 
-## 📝 Exemplos de Uso
+## Exemplos de Uso
 
 ### Obter Informações do Sistema
 
@@ -154,7 +154,7 @@ download /etc/passwd
 # O servidor receberá o arquivo em formato base64
 ```
 
-## 🛡️ Segurança
+## Segurança
 
 ### Considerações de Segurança
 
@@ -172,7 +172,7 @@ Para uso em ambiente de produção ou mais seguro, considere:
 4. Implementar logging e auditoria
 5. Adicionar rate limiting
 
-## 🐛 Solução de Problemas
+## Solução de Problemas
 
 ### Problema: "Conexão recusada"
 
@@ -201,7 +201,7 @@ ping <IP_SERVIDOR>
 ls -la > /tmp/output.txt && cat /tmp/output.txt
 ```
 
-## 📚 Arquitetura
+## Arquitetura
 
 ```
 ┌─────────────┐         TCP Connection         ┌─────────────┐
@@ -230,7 +230,7 @@ ls -la > /tmp/output.txt && cat /tmp/output.txt
 
 Este projeto é fornecido "como está" para fins educacionais. Veja o arquivo LICENSE para mais detalhes.
 
-## 👥 Contribuindo
+## Contribuindo
 
 Contribuições são bem-vindas! Por favor:
 
@@ -240,7 +240,7 @@ Contribuições são bem-vindas! Por favor:
 4. Push para a branch (`git push origin feature/MinhaFeature`)
 5. Abra um Pull Request
 
-## 📧 Contato
+## Contato
 
 Para questões ou sugestões, abra uma issue no GitHub.
 
